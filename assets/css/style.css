@@ -244,16 +244,43 @@ footer{
     background-color: blueviolet;
     color: white;
     padding: 20px;
+    font-size: 24px;
+}
+.fn_1 span{
+    color: white;
+    font-size: 14px;
+}
+.fn_1 a{
+    text-decoration: none;
+    color:white;
 }
 .fn_2{
     background-color: rgb(114, 51, 173);
     color: white;
     padding: 20px;
+    font-size: 24px;
+}
+.fn_2 a{
+    text-decoration: none;
+    color: white;
+}
+.fn_2 span{
+    color: white;
+    font-size: 14px;
 }
 .fn_3{
     background-color: blueviolet;
     color: white;
     padding: 20px;
+    font-size: 24px;
+}
+.fn_3 a{
+    text-decoration: none;
+    color: white;
+}
+.fn_3 span{
+    color: white;
+    font-size: 14px;
 }
 .footer_area{
     display: flex;
@@ -267,5 +294,113 @@ footer .widget_tittle_text{
     color: white;
 }
 
+.footer_copy{
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
 /* STOPED IN 12:30 MINUTES */
 /* FAZER UM POP-UP PARA A HOME DO SITE */
+
+.adress{
+    
+    margin-top: 10px;  
+    float: left;
+    width: 145px;
+    font-size: 12px;
+    
+}
+.number_email{
+    
+    margin-top: 10px;
+    width: 145px;
+    float: right;
+    font-size: 12px;
+}
+.check{
+    padding-left: 80px;
+    padding-top: 30px;
+}
+.footer_areaitem a{
+    text-decoration: none;
+    color: #5c5c5c;
+    padding: 0;
+    margin: 0;
+}
+
+.menu_mobile{
+    display: none ;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+.mm_line{
+    height: 3px;
+    background-color: blueviolet;
+}
+
+@media only screen and (max-width:600px){
+
+    #banner{
+        height: auto;
+    }
+    .area1 h1{
+        padding: 10px;
+        font-size: 30px;
+    }
+    .area1 h2{
+        padding: 20px;
+        font-size: 16px;
+    }
+    .area2{
+        flex-direction: column;
+        height: auto;
+        display: block;
+    }
+    .container{
+        flex-direction: column;
+        height: auto;
+    }
+    #geral section, #geral aside{
+        padding: 20px;
+       
+    }
+    .footer_menu{
+        flex-direction: column;
+    }
+    .footer_area{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer_copy{
+        padding-left: 20px;
+    }
+    header .container{
+        flex-direction: row;
+    }
+    nav ul{
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        background-color: #ffffff;
+    }
+    header {
+        height: auto;
+    }
+    .logo{padding: 10px;}
+
+
+    .menu_mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
